@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.752,
+  "balanced_accuracy": 0.679047619047619,
+  "ece": 5.3734794391857575e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.19403862953186035,
+  "dataset": "credit-g",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_credit-g",
+  "llm_calls": 6000
+}

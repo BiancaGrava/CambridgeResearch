@@ -1,0 +1,146 @@
+[
+  {
+    "expr": "preg >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6474937353568211,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "preg >= 5",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6922017009622767,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "plas >= 102",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.688762346561004,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "plas >= 134",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6510417595024223,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "pres >= 64",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6644882144266782,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "pres >= 78",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6827430462038835,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "skin >= 8.2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6365141662948128,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "skin >= 31",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6888687763410484,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "insu >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.64679941866329,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "insu >= 106",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.691808888223969,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "mass >= 28.2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6864920846847002,
+      "risk": 1.6653345369377348e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "mass >= 35.49",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.692687971442475,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "pedi >= 0.259",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6660094466711388,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "pedi >= 0.5637",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6897607338955306,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 25",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6837865122862437,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 38",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6927034732753158,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  }
+]

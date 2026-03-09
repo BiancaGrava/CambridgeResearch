@@ -1,0 +1,10 @@
+{
+  "rmse": 12126.31048765414,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.431591272354126,
+  "dataset": "cars",
+  "task": "regression",
+  "exp_name": "bandit_cars_reg",
+  "llm_calls": 6000
+}

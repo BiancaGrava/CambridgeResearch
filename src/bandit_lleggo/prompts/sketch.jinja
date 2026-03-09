@@ -1,0 +1,16 @@
+You are given the exact list of valid feature names. Only use these names in predicates.
+
+VALID_FEATURES:
+{{ meta["feature_names"] | tojson }}
+
+Return JSON STRICTLY in this schema:
+{"rules":[{"expr":"<boolean expr using ONLY VALID_FEATURES>", "notes":{"reason":"..."}}]}
+
+Constraints:
+- Use only operators: >, >=, <, <=, ==, and, or, parentheses.
+- At most {{ max_literals | default(3) }} literals per rule.
+- Avoid protected attributes if any exist in the metadata.
+
+Guidance:
+- Prefer thresholds near empirical quantiles (you can propose approximate midpoints).
+- Provide diverse but useful rules.

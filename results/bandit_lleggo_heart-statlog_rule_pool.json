@@ -1,0 +1,227 @@
+[
+  {
+    "expr": "age >= 50",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6930238216057476,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 60",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6829081027004718,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "sex >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "sex >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6888261014101271,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "chest >= 3",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6924073511233139,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "chest >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6061962073024783,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "resting_blood_pressure >= 120",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6912835152901593,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "resting_blood_pressure >= 140",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6921137646782083,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "serum_cholestoral >= 221.7",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6930211969529487,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "serum_cholestoral >= 270",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6824007155995917,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "fasting_blood_sugar >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "resting_electrocardiographic_results >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "resting_electrocardiographic_results >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6909878104058508,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "maximum_heart_rate_achieved >= 140",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6388816567239145,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "maximum_heart_rate_achieved >= 163",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5229145312743404,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "exercise_induced_angina >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "exercise_induced_angina >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5714051324499541,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "oldpeak >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "oldpeak >= 1.5",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6118816873219312,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "slope >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "slope >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.659711613178473,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "number_of_major_vessels >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "number_of_major_vessels >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5859526163035509,
+      "risk": 3.3306690738754696e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "thal >= 3",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6869615745973233,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "thal >= 7",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5515228590009909,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  }
+]

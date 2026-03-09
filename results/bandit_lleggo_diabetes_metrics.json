@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.7916666666666666,
+  "balanced_accuracy": 0.7369850746268657,
+  "ece": 6.216092455583559e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.12761449813842773,
+  "dataset": "diabetes",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_diabetes",
+  "llm_calls": 6000
+}

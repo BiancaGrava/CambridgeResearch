@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.11551155115511551,
+  "balanced_accuracy": 0.07971491228070175,
+  "ece": 0.10561056105610558,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.1393587589263916,
+  "dataset": "cholesterol",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_cholesterol",
+  "llm_calls": 6000
+}

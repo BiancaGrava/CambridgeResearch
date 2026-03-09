@@ -1,0 +1,101 @@
+[
+  {
+    "expr": "age > 50 and maximum_heart_rate_achieved < 140",
+    "meta": {
+      "reason": "Older age combined with lower maximum heart rate may indicate potential heart issues.",
+      "util": 0.6024402615203422,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "serum_cholestoral > 240 and resting_blood_pressure > 130",
+    "meta": {
+      "reason": "High cholesterol and high blood pressure are risk factors for cardiovascular diseases.",
+      "util": 0.6765259584935,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "exercise_induced_angina == 1 and oldpeak > 2",
+    "meta": {
+      "reason": "Presence of exercise-induced angina with significant ST depression suggests ischemia.",
+      "util": 0.1679441457341731,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "number_of_major_vessels >= 2 and thal == 3",
+    "meta": {
+      "reason": "Multiple blocked vessels and fixed defect on thallium test indicate severe heart disease.",
+      "util": 0.6806294858916635,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age > 50 and serum_cholestoral > 240",
+    "meta": {
+      "reason": "Older individuals with high cholesterol levels may be at increased risk for heart disease.",
+      "util": 0.6772976954986347,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "maximum_heart_rate_achieved < 120 and exercise_induced_angina == 1",
+    "meta": {
+      "reason": "Low maximum heart rate combined with exercise-induced angina could indicate cardiovascular issues.",
+      "util": 0.3364957555835161,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "resting_blood_pressure > 140 and fasting_blood_sugar == 1",
+    "meta": {
+      "reason": "High blood pressure and elevated fasting blood sugar are risk factors for heart disease.",
+      "util": 0.6365141662948128,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "oldpeak > 2.0 and slope == 2",
+    "meta": {
+      "reason": "A significant ST depression with a flat slope during exercise may suggest ischemia.",
+      "util": 0.24493002479463538,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "resting_blood_pressure > 140 and age > 60",
+    "meta": {
+      "reason": "High blood pressure in older adults is a significant risk factor for cardiovascular issues.",
+      "util": 0.6922017009622767,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "oldpeak > 2 and slope == 2",
+    "meta": {
+      "reason": "A high ST depression (oldpeak) with a flat slope during exercise testing can indicate ischemia.",
+      "util": 0.24493002479463538,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "oldpeak >= 2 and slope == 2",
+    "meta": {
+      "reason": "A significant ST depression (oldpeak) with a flat slope can indicate ischemia.",
+      "util": 0.3364957555835161,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  }
+]

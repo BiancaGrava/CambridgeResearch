@@ -1,0 +1,11 @@
+{
+  "best_fitness": 0.7095199052396504,
+  "best_tree": {
+    "depth": 4,
+    "size": 6,
+    "rules": []
+  },
+  "rule_pool_size": 17,
+  "elapsed_sec": 0.1605823040008545,
+  "iters": 15
+}

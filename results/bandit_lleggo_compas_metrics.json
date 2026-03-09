@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.6815081470253884,
+  "balanced_accuracy": 0.6790763236519963,
+  "ece": 5.0504840510136433e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.06655478477478027,
+  "dataset": "compas",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_compas",
+  "llm_calls": 6000
+}

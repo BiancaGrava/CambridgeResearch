@@ -1,0 +1,119 @@
+[
+  {
+    "expr": "duration >= 12",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6362320272701065,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "duration >= 24",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6648624911368393,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "credit_amount >= 1479.4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6144519627043636,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "credit_amount >= 3590",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6634427063741908,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "installment_commitment >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6173860897225629,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "installment_commitment >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6369984604832798,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "residence_since >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6137577673628454,
+      "risk": 3.3306690738754696e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "residence_since >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6110693173544529,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 28",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5854488990777844,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 39",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5756556278910149,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "existing_credits >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6108643000548936,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "existing_credits >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5857095016630832,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "num_dependents >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6108643000548936,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  }
+]

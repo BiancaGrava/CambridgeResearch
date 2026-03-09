@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.20224719101123595,
+  "balanced_accuracy": 0.08661218905546093,
+  "ece": 0.1104868913857678,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.017966032028198242,
+  "dataset": "wage",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_wage",
+  "llm_calls": 1200
+}

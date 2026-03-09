@@ -1,0 +1,22 @@
+accuracy,"balanced_accuracy for classsification, RMSE for regression",ece,depth,n_params,runtime,dataset,task,exp_name,llm_calls,filename
+0.9756795422031473,0.9804580622950225,3.8913396428206494e-17,4,6,3.0818417072296143,breast,classification,bandit_breast,600,bandit_breast_metrics.json
+0.02736318407960199,0.019222644697929867,0.026119402985074633,4,6,43.66458010673523,cars,regression,bandit_cars,6000,bandit_cars_metrics.json
+0.11551155115511551,0.07971491228070175,0.10561056105610558,4,6,39.37339496612549,cholesterol,regression,bandit_cholesterol,6000,bandit_cholesterol_metrics.json
+0.6815081470253884,0.6790763236519963,5.0504840510136433e-17,4,6,19.82117748260498,compas,classification,bandit_compas,3000,bandit_compas_metrics.json
+0.7916666666666666,0.7369850746268657,6.216092455583559e-17,4,6,0.14220523834228516,diabetes,classification,bandit_diabetes,6000,bandit_diabetes_metrics.json
+0.8925925925925926,0.8875,4.605369583630279e-17,4,6,17.278155088424683,heart-statlog,classification,bandit_heart-statlog,3000,bandit_heart-statlog_metrics.json
+0.2820205889394302,0.13623542613145032,0.1283217620301652,4,6,0.15383601188659668,abalone,regression,bandit_lleggo_abalone,6000,bandit_lleggo_abalone_metrics.json
+0.9756795422031473,0.9804580622950225,3.8913396428206494e-17,4,6,0.14379143714904785,breast,classification,bandit_lleggo_breast,6000,bandit_lleggo_breast_metrics.json
+0.02736318407960199,0.019222644697929867,0.026119402985074633,4,6,0.34753870964050293,cars,regression,bandit_lleggo_cars,6000,bandit_lleggo_cars_metrics.json
+0.11551155115511551,0.07971491228070175,0.10561056105610558,4,6,0.1393587589263916,cholesterol,regression,bandit_lleggo_cholesterol,6000,bandit_lleggo_cholesterol_metrics.json
+0.6815081470253884,0.6790763236519963,5.0504840510136433e-17,4,6,0.06655478477478027,compas,classification,bandit_lleggo_compas,6000,bandit_lleggo_compas_metrics.json
+0.752,0.679047619047619,5.3734794391857575e-17,4,6,0.19403862953186035,credit-g,classification,bandit_lleggo_credit-g,6000,bandit_lleggo_credit-g_metrics.json
+0.9756795422031473,0.9804580622950225,3.8913396428206494e-17,4,6,22.137649059295654,breast,classification,bandit_lleggo_demo,3000,bandit_lleggo_demo_metrics.json
+0.7916666666666666,0.7369850746268657,6.216092455583559e-17,4,6,0.12761449813842773,diabetes,classification,bandit_lleggo_diabetes,6000,bandit_lleggo_diabetes_metrics.json
+0.8925925925925926,0.8875,4.605369583630279e-17,4,6,0.04118227958679199,heart-statlog,classification,bandit_lleggo_heart-statlog,1200,bandit_lleggo_heart-statlog_metrics.json
+0.7495711835334476,0.5718346959926301,8.740863950307837e-17,4,6,0.04804635047912598,liver,classification,bandit_lleggo_liver,6000,bandit_lleggo_liver_metrics.json
+0.966903073286052,0.9612356103547011,3.7794826370218094e-17,4,6,0.4008798599243164,vehicle,classification,bandit_lleggo_vehicle,6000,bandit_lleggo_vehicle_metrics.json
+0.20224719101123595,0.08661218905546093,0.1104868913857678,4,6,0.017966032028198242,wage,regression,bandit_lleggo_wage,1200,bandit_lleggo_wage_metrics.json
+0.5487147914422041,0.21866566500156198,0.5460981991688472,4,6,0.2212049961090088,wine,regression,bandit_lleggo_wine,6000,bandit_lleggo_wine_metrics.json
+0.966903073286052,0.9612356103547011,3.7794826370218094e-17,4,6,9.01175570487976,vehicle,classification,bandit_vehicle,1200,bandit_vehicle_metrics.json
+0.5487147914422041,0.21866566500156198,0.5460981991688472,4,6,43.06680607795715,wine,regression,

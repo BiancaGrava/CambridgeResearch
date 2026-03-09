@@ -1,0 +1,146 @@
+[
+  {
+    "expr": "Clump_Thickness > 5 and Cell_Size_Uniformity > 3",
+    "meta": {
+      "reason": "Higher values of Clump Thickness and Cell Size Uniformity are often associated with malignancy.",
+      "util": 0.14689727910576378,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 7 or Bland_Chromatin > 6",
+    "meta": {
+      "reason": "Bare Nuclei and Bland Chromatin values above these thresholds are indicative of abnormal cell growth.",
+      "util": 0.22057003440017678,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Single_Epi_Cell_Size < 3 and Marginal_Adhesion <= 2",
+    "meta": {
+      "reason": "Low values in Single Epithelial Cell Size and Marginal Adhesion suggest benign characteristics.",
+      "util": 0.11900829237612405,
+      "risk": 3.469446951953614e-18,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli > 4 and Mitoses > 1",
+    "meta": {
+      "reason": "Elevated Normal Nucleoli and Mitoses counts are strong indicators of cancerous activity.",
+      "util": 0.1216924006780619,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Shape_Uniformity <= 2 or Clump_Thickness < 4",
+    "meta": {
+      "reason": "Low Cell Shape Uniformity and Clump Thickness are typically associated with benign tumors.",
+      "util": 0.2330387611908039,
+      "risk": 1.3877787807814457e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 6 or Bland_Chromatin > 4",
+    "meta": {
+      "reason": "Bare_Nuclei and Bland_Chromatin are indicators of abnormal cell growth when they have higher values.",
+      "util": 0.26693992864573207,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Marginal_Adhesion < 3 and Single_Epi_Cell_Size < 3",
+    "meta": {
+      "reason": "Lower values of Marginal_Adhesion and Single_Epi_Cell_Size can suggest benign conditions.",
+      "util": 0.11900829237612405,
+      "risk": 3.469446951953614e-18,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli > 2 and Mitoses > 1",
+    "meta": {
+      "reason": "Elevated Normal_Nucleoli and Mitoses counts are often linked to aggressive tumor behavior.",
+      "util": 0.13686399128224852,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Shape_Uniformity <= 2 or Clump_Thickness <= 3",
+    "meta": {
+      "reason": "Low Cell_Shape_Uniformity and Clump_Thickness are typically associated with benign tumors.",
+      "util": 0.2330387611908039,
+      "risk": 1.3877787807814457e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli > 5 and Mitoses > 1",
+    "meta": {
+      "reason": "Increased nucleoli and mitotic activity suggest aggressive cell proliferation.",
+      "util": 0.07757003569329338,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 6 or Bland_Chromatin >= 7",
+    "meta": {
+      "reason": "Elevated Bare Nuclei and Bland Chromatin scores can indicate abnormal cell growth.",
+      "util": 0.21827263423611407,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Single_Epi_Cell_Size < 3 and Marginal_Adhesion < 2",
+    "meta": {
+      "reason": "Low values in Single Epithelial Cell Size and Marginal Adhesion suggest benign characteristics.",
+      "util": 0.10727182128640171,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 7 or Mitoses > 1",
+    "meta": {
+      "reason": "Presence of many bare nuclei or increased mitotic activity can indicate malignancy.",
+      "util": 0.2764915194929016,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Shape_Uniformity <= 2 and Marginal_Adhesion <= 3",
+    "meta": {
+      "reason": "Lower cell shape uniformity and marginal adhesion are typically seen in benign cells.",
+      "util": 0.06719687836269791,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Single_Epi_Cell_Size > 4 or Bland_Chromatin > 5",
+    "meta": {
+      "reason": "Larger epithelial cell size or more bland chromatin can suggest abnormal cell growth.",
+      "util": 0.3087015775539311,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli == 1 and Mitoses <= 1",
+    "meta": {
+      "reason": "Few nucleoli and low mitotic count are common in benign conditions.",
+      "util": 0.2666792335816306,
+      "risk": 1.3877787807814457e-17,
+      "fair": 0.0
+    }
+  }
+]

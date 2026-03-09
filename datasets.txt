@@ -1,0 +1,15 @@
+abalone
+breast
+cars
+cholesterol
+compas
+credit-g
+cutract
+diabetes
+heart-statlog
+liver
+maggic
+seer
+vehicle
+wage
+wine

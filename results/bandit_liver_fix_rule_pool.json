@@ -1,0 +1,164 @@
+[
+  {
+    "expr": "age >= 35",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5794294007506058,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 55",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5623351426188083,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "total_bilirubin >= 0.8",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5537060718703903,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "total_bilirubin >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.2868359810561607,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "direct_bilirubin >= 0.2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5900237460109645,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "direct_bilirubin >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.26141644244604145,
+      "risk": 1.3877787807814457e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "alkphos_alkaline_phosphatase >= 182",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5290345435573736,
+      "risk": 8.326672684688674e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "alkphos_alkaline_phosphatase >= 282",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.39688253339081603,
+      "risk": 2.7755575615628914e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "sgpt_alanine_aminotransferase >= 25",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5447717443482335,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "sgpt_alanine_aminotransferase >= 53",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.36154789093319845,
+      "risk": 2.7755575615628914e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "sgot_aspartate_aminotransferase >= 28",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5307057594151863,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "sgot_aspartate_aminotransferase >= 71",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.3422173336981135,
+      "risk": 2.7755575615628914e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "total_proteins >= 6",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6054220687958614,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "total_proteins >= 7.1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6196870602617206,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "albumin >= 2.7",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6225922675478289,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "albumin >= 3.6",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6679806099490646,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "albumin_globulin_ratio >= 0.8",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6326313469071192,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "albumin_globulin_ratio >= 1.042",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6654455260457399,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  }
+]

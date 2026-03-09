@@ -1,0 +1,56 @@
+[
+  {
+    "expr": "COMPACTNESS >= 89",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.48760443663353153,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "COMPACTNESS >= 98",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5312833628364255,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "CIRCULARITY >= 41",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6223025723841769,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "CIRCULARITY >= 48",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.46800704107532,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "ELONGATEDNESS >= 35",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5943240931233577,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "ELONGATEDNESS >= 45",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.5821141244065092,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "expr": "Clump_Thickness >= 3",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6905939844775921,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Clump_Thickness >= 5",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6379664982117617,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Size_Uniformity >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6441541060484819,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Size_Uniformity >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.23842496281278724,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Shape_Uniformity >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6441541060484819,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Shape_Uniformity >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.31449219928141064,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Marginal_Adhesion >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6441541060484819,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Marginal_Adhesion >= 3",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.4956262704067235,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Single_Epi_Cell_Size >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.657935723217937,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Single_Epi_Cell_Size >= 3",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.4777184108204194,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6474013075978196,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.32211696903968295,
+      "risk": 3.3306690738754696e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bland_Chromatin >= 2",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.68516996666057,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bland_Chromatin >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.30849544883110386,
+      "risk": 3.3306690738754696e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6441541060484819,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli >= 3",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.36328666777579705,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Mitoses >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6441541060484819,
+      "risk": 5.551115123125783e-17,
+      "fair": 0.0
+    }
+  }
+]

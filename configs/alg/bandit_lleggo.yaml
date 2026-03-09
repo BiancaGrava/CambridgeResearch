@@ -1,0 +1,39 @@
+# configs/alg/bandit_lleggo.yaml
+defaults:
+  - _self_
+  - /endpoint: default
+  - /bandit: default
+
+exp_name: bandit_lleggo_demo
+seed: 42
+
+dataset:
+  name: breast         # CLI override: alg.dataset.name=abalone
+  task: classification
+
+training:
+  outer_rounds: 5
+
+scheduler:
+  inner_generations: 3
+  arms: ["new_rules", "refine_rules", "gp_only"]
+  window: 2
+  tol: 1e-5
+  k: 4
+  m: 6
+  thresholds:
+    u: 0.0    # loosen for smoke test; tighten after you see accepted rules
+    ece: 1.0
+    fair: 1.0
+  prompt:
+    sketch:
+      max_tokens: 600
+    rich:
+      max_tokens: 1200
+
+gp:
+  max_depth: 4
+  pop_size: 20
+  n_iterations: 20
+  use_crossover: true
+  use_mutation: true

@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.2820205889394302,
+  "balanced_accuracy": 0.13623542613145032,
+  "ece": 0.1283217620301652,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.15383601188659668,
+  "dataset": "abalone",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_abalone",
+  "llm_calls": 6000
+}

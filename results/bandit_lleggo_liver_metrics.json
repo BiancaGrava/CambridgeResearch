@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.7495711835334476,
+  "balanced_accuracy": 0.5718346959926301,
+  "ece": 8.740863950307837e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.04804635047912598,
+  "dataset": "liver",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_liver",
+  "llm_calls": 6000
+}

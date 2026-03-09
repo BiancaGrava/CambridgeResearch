@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9756795422031473,
+  "balanced_accuracy": 0.9804580622950225,
+  "ece": 3.8913396428206494e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.14379143714904785,
+  "dataset": "breast",
+  "task": "classification",
+  "exp_name": "bandit_lleggo_breast",
+  "llm_calls": 6000
+}

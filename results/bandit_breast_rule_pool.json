@@ -1,0 +1,47 @@
+[
+  {
+    "expr": "Clump_Thickness > 5 and Cell_Size_Uniformity > 3",
+    "meta": {
+      "reason": "Higher values of Clump Thickness and Cell Size Uniformity are often associated with malignancy.",
+      "util": 0.14689727910576378,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Bare_Nuclei >= 7 or Bland_Chromatin > 6",
+    "meta": {
+      "reason": "Elevated Bare Nuclei or Bland Chromatin levels can indicate abnormal cell growth.",
+      "util": 0.22057003440017678,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Marginal_Adhesion < 2 and Single_Epi_Cell_Size < 3",
+    "meta": {
+      "reason": "Low Marginal Adhesion and Single Epithelial Cell Size may suggest benign characteristics.",
+      "util": 0.10727182128640171,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Normal_Nucleoli > 4 and Mitoses > 1",
+    "meta": {
+      "reason": "Increased Normal Nucleoli and Mitoses are often linked to aggressive tumor behavior.",
+      "util": 0.1216924006780619,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "Cell_Shape_Uniformity <= 2 or Clump_Thickness <= 3",
+    "meta": {
+      "reason": "Low Cell Shape Uniformity or Clump Thickness can be indicative of non-cancerous cells.",
+      "util": 0.2330387611908039,
+      "risk": 1.3877787807814457e-17,
+      "fair": 0.0
+    }
+  }
+]

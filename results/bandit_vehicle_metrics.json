@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.966903073286052,
+  "balanced_accuracy": 0.9612356103547011,
+  "ece": 3.7794826370218094e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 9.01175570487976,
+  "dataset": "vehicle",
+  "task": "classification",
+  "exp_name": "bandit_vehicle",
+  "llm_calls": 1200
+}

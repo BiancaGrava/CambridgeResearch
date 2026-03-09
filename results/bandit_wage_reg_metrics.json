@@ -1,0 +1,10 @@
+{
+  "rmse": 5.291882678654563,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 0.07935571670532227,
+  "dataset": "wage",
+  "task": "regression",
+  "exp_name": "bandit_wage_reg",
+  "llm_calls": 6000
+}

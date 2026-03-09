@@ -1,0 +1,101 @@
+[
+  {
+    "expr": "age >= 26",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6853142052764583,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age >= 39",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6427738774297082,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "juv_fel_count >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6913989684284474,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "juv_misd_count >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6913989684284474,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "juv_other_count >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6913989684284474,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "priors_count >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6913989684284474,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "priors_count >= 4",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6353935086041703,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_F >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6913989684284474,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_F >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6929031078641732,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_M >= 0",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6913989684284474,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_M >= 1",
+    "meta": {
+      "seed": "quantile",
+      "util": 0.6706972711336299,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  }
+]

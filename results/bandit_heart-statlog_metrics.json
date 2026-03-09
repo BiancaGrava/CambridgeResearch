@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.8925925925925926,
+  "balanced_accuracy": 0.8875,
+  "ece": 4.605369583630279e-17,
+  "depth": 4,
+  "n_params": 6,
+  "runtime": 17.278155088424683,
+  "dataset": "heart-statlog",
+  "task": "classification",
+  "exp_name": "bandit_heart-statlog",
+  "llm_calls": 3000
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "expr": "priors_count > 3 and juv_fel_count > 0",
+    "meta": {
+      "reason": "Individuals with more than 3 prior offenses and at least one juvenile felony may have a higher risk of reoffending.",
+      "util": 0.5827644283976353,
+      "risk": 0.0,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_F == 1 and priors_count > 1",
+    "meta": {
+      "reason": "Individuals charged with a felony and having more than 1 prior offense may have a higher risk of reoffending.",
+      "util": 0.6591008720379499,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "juv_misd_count > 1 and priors_count > 2",
+    "meta": {
+      "reason": "A history of juvenile misdemeanors combined with multiple prior offenses could indicate a higher risk of reoffending.",
+      "util": 0.53415936468715,
+      "risk": 4.440892098500626e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_F == 1 and priors_count > 2",
+    "meta": {
+      "reason": "Individuals charged with a felony and having more than 2 prior offenses are likely to reoffend.",
+      "util": 0.6387817553016228,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "c_charge_degree_F == 1 and priors_count > 3",
+    "meta": {
+      "reason": "Having a felony charge and more than 3 prior offenses suggests a pattern of serious criminal activity.",
+      "util": 0.6225952543286273,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "age <= 25 and priors_count > 2",
+    "meta": {
+      "reason": "Younger individuals with a higher number of prior offenses may have a higher risk of reoffending.",
+      "util": 0.5234083465739126,
+      "risk": 2.220446049250313e-16,
+      "fair": 0.0
+    }
+  },
+  {
+    "expr": "juv_fel_count > 0 and priors_count > 5",
+    "meta": {
+      "reason": "Individuals with juvenile felony counts and a significant number of prior offenses may indicate persistent criminal behavior.",
+      "util": 0.569268567218154,
+      "risk": 1.1102230246251565e-16,
+      "fair": 0.0
+    }
+  }
+]
