@@ -1,12 +1,6 @@
 # BanditLLEGGO — Two‑Phase Pipeline (Rules → Tree)
 
-This repository runs BanditLLEGGO in **two phases**, aligned with the paper:
-1) **Rule‑set evolution** (Phase‑1): collect LLM‑conditioned rule candidates, validate them with a firewall, and **freeze** the best set \(S^\*\).
-2) **Tree induction** (Phase‑2): load \(S^\*\), then run a **depth‑bounded GP** with **rule‑aware** initialization/mutation/crossover using only \(S^\*\). No LLM calls in this phase.
-
-The original **joint** mode (trees evolved while rules are updated online) is still available.
-
----
+An MVP for my research paper designed as part of my past Cambridge PhD Application.
 
 ## What the two phases emulate
 
